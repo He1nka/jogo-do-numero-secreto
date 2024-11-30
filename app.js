@@ -66,7 +66,7 @@ function limparCampo() {
 function reiniciarJogo() {
     numeroSecreto = numeroAleatorio();
     limparCampo();
-    let tentativas = 1;
+    tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);    
 }
